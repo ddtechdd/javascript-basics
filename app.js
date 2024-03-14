@@ -10,3 +10,14 @@ console.log(num)//5
 num=10
 
 console.log(num)//10
+
+// Data types
+
+let myNumber;
+console.log(myNumber) // undefined
+
+let boolValue = true
+let nullValue = null
+
+console.log(boolValue)
+console.log(nullValue)
