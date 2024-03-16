@@ -58,6 +58,11 @@ const student = {
     }]
 }
 
-console.log(student.courses)
-console.log(student.courses[0])
-console.log(student.courses[1].courseName)
+// console.log(student.courses)
+// console.log(student.courses[0])
+// console.log(student.courses[1].courseName)
+
+//Template strings
+const myNameNew ="Dd"
+
+console.log(`hello,${myNameNew}`)
