@@ -65,4 +65,9 @@ const student = {
 //Template strings
 const myNameNew ="Dd"
 
-console.log(`hello,${myNameNew}`)
+// console.log(`hello,${myNameNew}`)
+
+const username = prompt('enter your username')
+//console.log(username)
+
+alert (`hello,${username}!`)
