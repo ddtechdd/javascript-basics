@@ -67,7 +67,22 @@ const myNameNew ="Dd"
 
 // console.log(`hello,${myNameNew}`)
 
-const username = prompt('enter your username')
+// const username = prompt('enter your username')
 //console.log(username)
 
-alert (`hello,${username}!`)
+// alert (`hello,${username}!`)
+
+
+// operators
+let a = 9
+let b = 3
+
+console.log(a+b)
+console.log(a+-b)
+console.log(a*b)
+console.log(a/b)
+console.log(a%b)
+a++
+console.log(a)
+b--
+console.log(b)
