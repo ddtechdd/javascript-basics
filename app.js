@@ -77,12 +77,20 @@ const myNameNew ="Dd"
 let a = 9
 let b = 3
 
-console.log(a+b)
-console.log(a+-b)
-console.log(a*b)
-console.log(a/b)
-console.log(a%b)
-a++
-console.log(a)
-b--
-console.log(b)
+// console.log(a+b)
+// console.log(a+-b)
+// console.log(a*b)
+// console.log(a/b)
+// console.log(a%b)
+// a++
+// console.log(a)
+// b--
+// console.log(b)
+
+//comparators
+console.log(3>4)
+console.log(3<4)
+console.log(3>=4)
+console.log(3>=3)
+console.log(3=='3')
+console.log(3==='3')
