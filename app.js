@@ -63,7 +63,7 @@ const student = {
 // console.log(student.courses[1].courseName)
 
 //Template strings
-const myNameNew ="Dd"
+const myNameNew = "Dd"
 
 // console.log(`hello,${myNameNew}`)
 
@@ -88,9 +88,29 @@ let b = 3
 // console.log(b)
 
 //comparators
-console.log(3>4)
-console.log(3<4)
-console.log(3>=4)
-console.log(3>=3)
-console.log(3=='3')
-console.log(3==='3')
+// console.log(3>4)
+// console.log(3<4)
+// console.log(3>=4)
+// console.log(3>=3)
+// console.log(3=='3')
+// console.log(3==='3')
+
+//conditionals
+
+let weatherCondition = "sunny"
+let subCondition = " Too hot"
+
+if (weatherCondition === "Cloudy") {
+    console.log("Take the umberalla")
+} else if (weatherCondition === "Rainy") {
+    console.log("use the umberalla")
+} else if (weatherCondition === "sunny") {
+
+    if (subCondition === "Too hot") {
+        console.log(" use the umberalla")
+    } else {
+        console.log("don't use the umberalla")
+    }
+} else {
+    console.log("don't take the umberalla")
+}
