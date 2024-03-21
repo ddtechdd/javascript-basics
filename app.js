@@ -112,7 +112,7 @@ let b = 3
 //         console.log("don't use the umberalla")
 //     }
 // } else {
-    // console.log("don't take the umberalla")
+// console.log("don't take the umberalla")
 // }
 
 // ternary operator
@@ -131,7 +131,7 @@ let result = 9 < 15
 // }else if (age<18) {
 //     console.log('minor')
 // }else{
-    // console.log('adult')
+// console.log('adult')
 // }
 
 
@@ -145,16 +145,37 @@ let result = 9 < 15
 
 // logical operators
 
-let a1 = 0
-let a2 ='dfdfff'
+// let a1 = 0
+// let a2 ='dfdfff'
 
-if(a1||a2){
-    console.log('hi')   
-}
+// if(a1||a2){
+//     console.log('hi')   
+// }
 
-let b1= 87
-let b2= 57
+// let b1= 87
+// let b2= 57
 
-if(b1&&b2){
-    console.log('hello')
+// if(b1&&b2){
+//     console.log('hello')
+// }
+
+
+// print all the elements of the array
+
+// let arr1 =[45,57,63,67]
+
+// for ( let i=0;i<arr1;i++){
+//     console.log(i)
+// }
+
+
+// while loop
+
+let rand = Math.random()
+console.log(rand)
+
+while (rand > 0.5) {
+    console.log('rand is greater than 0.5')
+    rand = Math.random()
+    console.log(rand)
 }
