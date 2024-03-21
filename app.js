@@ -124,12 +124,21 @@ let result = 9 < 15
 
 //task
 
-const age = prompt('enter your age:  ')
+// const age = prompt('enter your age:  ')
 
-if(age>60){
-    console.log('senior citizen')
-}else if (age<18) {
-    console.log('minor')
+// if(age>60){
+//     console.log('senior citizen')
+// }else if (age<18) {
+//     console.log('minor')
+// }else{
+    // console.log('adult')
+// }
+
+
+let bool = true
+
+if(bool){
+    console.log('bool is true')
 }else{
-    console.log('adult')
+    console.log('bool is false')
 }
