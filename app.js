@@ -1,62 +1,62 @@
 // Identifiers let const & console
 
-const myName = "Dd"
+// const myName = "Dd"
 
-let num = 5
+// let num = 5
 
-console.log(myName)//Dd
-console.log(num)//5
+// console.log(myName)//Dd
+// console.log(num)//5
 
-num = 10
+// num = 10
 
-console.log(num)//10
+// console.log(num)//10
 
-// Data types
+// // Data types
 
-let myNumber;
-// console.log(myNumber) // undefined
+// let myNumber;
+// // console.log(myNumber) // undefined
 
-let boolValue = true
-let nullValue = null
+// let boolValue = true
+// let nullValue = null
 
-console.log(boolValue)
-console.log(nullValue)
+// console.log(boolValue)
+// console.log(nullValue)
 
 
-// Array
+// // Array
 
-let intergerArray = [2, 5, 7, 9, 11]
+// let intergerArray = [2, 5, 7, 9, 11]
 
-// console.log(intergerArray.length)
-// console.log(intergerArray[0])
-// console.log(intergerArray[1])
+// // console.log(intergerArray.length)
+// // console.log(intergerArray[0])
+// // console.log(intergerArray[1])
 
-// console.log(intergerArray[intergerArray.length-1])
+// // console.log(intergerArray[intergerArray.length-1])
 
-//object
+// //object
 
-const person = {
-    name: {
-        firstname: "john",
-        secondname: "doe"
-    },
-    age: 25,
-    place: "london"
-}
+// const person = {
+//     name: {
+//         firstname: "john",
+//         secondname: "doe"
+//     },
+//     age: 25,
+//     place: "london"
+// }
 
-console.log(person)
+// console.log(person)
 
-const student = {
-    name: "john",
-    age: 25,
-    courses: [{
-        courseName: "js",
-        courseCredits: 3
-    }, {
-        courseName: "mern",
-        courseCredits: 4
-    }]
-}
+// const student = {
+//     name: "john",
+//     age: 25,
+//     courses: [{
+//         courseName: "js",
+//         courseCredits: 3
+//     }, {
+//         courseName: "mern",
+//         courseCredits: 4
+//     }]
+// }
 
 // console.log(student.courses)
 // console.log(student.courses[0])
@@ -135,10 +135,26 @@ let result = 9 < 15
 // }
 
 
-let bool = true
+// let bool = true
 
-if(bool){
-    console.log('bool is true')
-}else{
-    console.log('bool is false')
+// if(bool){
+//     console.log('bool is true')
+// }else{
+//     console.log('bool is false')
+// }
+
+// logical operators
+
+let a1 = 0
+let a2 ='dfdfff'
+
+if(a1||a2){
+    console.log('hi')   
+}
+
+let b1= 87
+let b2= 57
+
+if(b1&&b2){
+    console.log('hello')
 }
