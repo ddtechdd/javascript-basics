@@ -98,25 +98,38 @@ let b = 3
 //conditionals
 
 // let weatherCondition = "sunny"
-let subCondition = " Too hot"
+// let subCondition = " Too hot"
 
-if (weatherCondition === "Cloudy") {
-    console.log("Take the umberalla")
-} else if (weatherCondition === "Rainy") {
-    console.log("use the umberalla")
-} else if (weatherCondition === "sunny") {
+// if (weatherCondition === "Cloudy") {
+//     console.log("Take the umberalla")
+// } else if (weatherCondition === "Rainy") {
+//     console.log("use the umberalla")
+// } else if (weatherCondition === "sunny") {
 
-    if (subCondition === "Too hot") {
-        console.log(" use the umberalla")
-    } else {
-        console.log("don't use the umberalla")
-    }
-} else {
-    console.log("don't take the umberalla")
-}
+//     if (subCondition === "Too hot") {
+//         console.log(" use the umberalla")
+//     } else {
+//         console.log("don't use the umberalla")
+//     }
+// } else {
+    // console.log("don't take the umberalla")
+// }
 
 // ternary operator
 
 let result = 9 < 15
 
-result ? console.log("result is true") : console.log("result is false")
+// result ? console.log("result is true") : console.log("result is false")
+
+
+//task
+
+const age = prompt('enter your age:  ')
+
+if(age>60){
+    console.log('senior citizen')
+}else if (age<18) {
+    console.log('minor')
+}else{
+    console.log('adult')
+}
