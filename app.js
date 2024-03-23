@@ -171,11 +171,34 @@ let result = 9 < 15
 
 // while loop
 
-let rand = Math.random()
-console.log(rand)
+// let rand = Math.random()
+// console.log(rand)
 
-while (rand > 0.5) {
-    console.log('rand is greater than 0.5')
-    rand = Math.random()
-    console.log(rand)
+// while (rand > 0.5) {
+//     console.log('rand is greater than 0.5')
+//     rand = Math.random()
+//     console.log(rand)
+// }
+
+// let number = prompt('enter a number:')//5
+// console.log(number)
+
+// let factorial=1
+// for(let i =1; i<= number;i++){
+//     factorial=factorial*i
+// }
+
+// console.log(factorial)
+
+//i=1;i<=3;fact=1
+//i=2;i<=3;fact=2
+//i=3;i<=3;fact=3
+//i=4;x
+
+//functions
+const printName = (name)=>{
+    console.log(name)
 }
+
+printName("akshay")
+printName("akshaya")
