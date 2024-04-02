@@ -196,9 +196,24 @@ let result = 9 < 15
 //i=4;x
 
 //functions
-const printName = (name)=>{
-    console.log(name)
+// const printName = (name) => {
+//     console.log(name)
+// }
+
+// printName("akshay")
+// printName("akshaya")
+
+const printAge = (age) => {
+    console.log(age)
 }
 
-printName("akshay")
-printName("akshaya")
+const isAgeodd = (age, callback) => {
+    if (age % 2 === 1) {
+        callback(age)
+    } else {
+        console, log('even')
+    }
+}
+
+isAgeodd    (5,printAge)
+isAgeodd    (2,printAge)
